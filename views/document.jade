@@ -1,0 +1,16 @@
+title!= title
+meta(charset="utf-8")
+meta(name='viewport', content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+link(rel="stylesheet", href="/static/style.css")
+- console.log(req_query);
+- if ('wx' in req_query) {
+- console.log(document)
+- document = document.replace(/<\/p>\s*<p>/gi, '<br><br>').replace(/<\/?p>/gi, '').replace(/<\/(h\d|p)>/gi, '<br></$1>').replace(/<(h\d[^>]*)>/, '<br><$1>');
+- console.log(document)
+- }
+
+#container
+  header
+  section#main
+    article!= document
+  aside
