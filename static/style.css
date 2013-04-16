@@ -1,21 +1,200 @@
-* { border: 0 none; margin: 0; padding: 0; }
+*, *:after, *:before {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
 body {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 3;
 }
+a {
+    color: #000;
+    text-decoration: none;
+}
+.outter {
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    background-color: #ccc;
+    background-color: rgba(120,120,120,0.95);
+    text-shadow: #333 0 1px 1px;
+}
+
+.inner {
+    width: 95%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 100;
+    background-color: #aaa;
+    background-color: rgba(140,140,140,0.8);
+}
+.fixed a {
+    display: block;
+    padding: 3px 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.absolute {
+    position: absolute;
+    z-index: 300;
+    height: 31px;
+}
+
+.fixed-wrapper,
+.absolute-wrapper {
+    position: fixed;
+    z-index: 100;
+    background-color: #eef;
+}
+.absolute-wrapper {
+    position: absolute;
+    zindex: 200;
+}
+.header-line {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    height: 3px;
+    width: 100%;
+    background: #999;
+}
+nav {
+    float: left;
+    color: #eee;
+    padding: 0 0 0 5px;
+}
+.absolute a {
+    color: #eee;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 0 6px;
+    margin: 3px 0;
+    text-decoration: none;
+}
+nav a.active,
+nav a:hover {
+    background-color: #999;
+}
+.logo {
+    float: right;
+}    
+.logo a {
+    padding: 0 10px;
+    background-color: #555;
+    color: #fff;
+}
+.logo a .about {
+    color: #999;
+}
+
 #container {
-  width: 95%;
-  max-width: 700px;
-  margin: 0 auto;
+    margin-top: 31px;
+    padding-top: 20px;
+}
+#container .inner {
+    padding: 10px;
+    color: #111;
+}
+#about a,
+#main a {
+    background-color: #eee;
+}
+#about a:hover,
+#main a:hover {
+    background-color: #ddd;
+}
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.prev-next a {
+    color: #777;
+}
+a.next {
+    float: right;
+}
+.meta {
+    border-top: 4px dotted #bbb;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+h1.title {
+    font-size: 150%;
+    line-height: 1.2;
+    padding: 0 0 5px;
+    margin: 0;
+    text-align: center;
+}
+datetime {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    color: #999;
 }
 img {
-  margin: 1em 0;
-  max-width: 100%;
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+}
+.meta img {
+    margin: 20px auto 30px;
 }
 p {
-  margin: 1em 0;
+    margin: 1em 0;
+}
+.description {
+    font-size: 90%;
+    padding: 20px;
+    background-color: #eee;
+}
+.the-end {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#about {
+    border-top: 4px dotted #bbb;
+}
+#about h1 {
+    text-align: left;
+    padding: 20px 0;
+}
+.qrcode {
+    float: left;
+    padding-bottom: 40px;
+}
+.qrcode img {
+    margin: 0;
+}
+.about-text {
+    overflow: hidden;
+    padding: 0 10px;
+    font-size: 13px;
+}
+.about-text p {
+    margin: 10px 0;
+}
+.article-list {
+    padding-bottom: 30px;
 }

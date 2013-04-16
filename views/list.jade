@@ -1,8 +1,9 @@
+- var title = type=='selected'?'精选文章':'全部文章'
 title!= title + ' - sucklessInfo'
 meta(charset="utf-8")
 meta(name='viewport', content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
 link(rel="stylesheet", href="/static/style.css")
-
+          
 .fixed.outter
   a.top(href='#') ▲ 回到顶部
 
@@ -13,23 +14,22 @@ link(rel="stylesheet", href="/static/style.css")
       = ' | '
       a(href='/all', class= type == 'all' ? 'active' : '') 全部
       = ' | '
-      a(href='/selected', class = type == 'selected' ? active : '') 精选
+      a(href='/selected', class = type == 'selected' ? 'active' : '') 精选
     div.logo
       a(href='#about')
         span.about= 'about | '
         span sucklessInfo
 #container: .inner
-  .prev-next.clear
+  div
     - if (typeof prev != 'undefined')
-      a.prev(href='/blog/' + prev.index)= '◤ ' + prev.title
+      a.prev(href='/blog/' + prev.index) 上一篇
     - if (typeof next != 'undefined')
-      a.next(href='/blog/' + next.index)= next.title + ' ◢'
+      a.next(href='/blog/' + next.index) 下一篇
   section#main
-    .meta
-      h1.title= title
-      datetime= date
-      img(alt='cover', src= 'http://sucklessinfo.b0.upaiyun.com/'+index+'/0-c.jpg')
-      .description= description
-    article!= document
-    .the-end - The End -
+    h1= title
+    ul.article-list
+      - each entry in list
+        li
+          a(href='/blog/'+entry.index)= entry.title
+          div= entry.description
   include about

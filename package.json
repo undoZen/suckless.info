@@ -1,0 +1,18 @@
+{
+    "name": "sucklessinfo"
+  , "version": "0.0.1"
+  , "author": "undoZen <undozen@gmail.com> (http://www.undozen.com)"
+  , "description": "a chinese indie blog"
+  , "private": true
+  , "homepage": "http://github.com/undozen/suckless.info"
+  , "bug": {
+        "url": "http://github.com/undozen/suckless.info/issues"
+      , "email": "undozen@gmail.com"
+    }
+  , "dependencies": {
+        "jade": ">=0.0.1"
+      , "showdown": ">=0.0.1"
+      , "connect": ">=0.0.1"
+    }
+  , "main": "./site.js"
+}
