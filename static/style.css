@@ -19,6 +19,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   line-height: 3;
 }
+hr {
+    border: inset 1px #eee;
+}
 a {
     color: #000;
     text-decoration: none;

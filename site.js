@@ -7,8 +7,10 @@ var sourceBlogPath = path.join(sourcePath, 'blog');
 
 var entriesPath;
 
-var Showdown = require('showdown');
-var showdown = (new Showdown.converter).makeHtml;
+//var Showdown = require('showdown');
+//var showdown = (new Showdown.converter).makeHtml;
+var marked = require('marked');
+marked.setOptions({ gfm: true, breaks: true });
 var entryObj, entryList, entrySelected;
 var selectedIndex = [1, 3];
 function updateEntryList() {
@@ -31,7 +33,7 @@ entryObj = entriesPath.map(function (filename) {
       }
       return '';
     }).trim();
-    obj.document = showdown(obj.source);
+    obj.document = marked(obj.source);
     obj.document = obj.document.replace(/<h1[^>]*>(.+?)<\/h1>/i, function (all, title) {
       obj.title = title;
       return '';

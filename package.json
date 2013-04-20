@@ -11,7 +11,7 @@
     }
   , "dependencies": {
         "jade": ">=0.0.1"
-      , "showdown": ">=0.0.1"
+      , "marked": ">=0.0.1"
       , "connect": ">=0.0.1"
     }
   , "main": "./site.js"
