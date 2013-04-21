@@ -14,6 +14,6 @@ rss(version="2.0"): channel
     item
       title= item.title
       != '<link>http://suckless.info/blog/' + item.index + '</link>'
-      description!= '<![CDATA[ <p style="background-color: #ddd; font-size: small;">' + item.description + '</p>' + item.document.replace(/<!--.*?-->/g, '') + ']]>'
+      description!= '<![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/' + item.index + '/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">' + item.description + '</p>' + item.document.replace(/<!--.*?-->/g, '').replace(/<hr[^>]*>/gi, '<div>-----</div>') + ']]>'
       author @undoZen (undozen@gmail.com)
       pubDate= pubDate(item.date)

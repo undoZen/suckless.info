@@ -107,10 +107,12 @@ if (~process.argv.indexOf('gen') || ~process.argv.indexOf('generate')) {
   });
   fs.writeFileSync(path.join(__dirname, 'selected.html'), tplfunc('list')({
     list: entrySelected,
+    title: '精选文章',
     type: 'selected'
   }), 'utf8');
   fs.writeFileSync(path.join(__dirname, 'all.html'), tplfunc('list')({
     list: entryList,
+    title: '全部文章',
     type: 'all'
   }), 'utf8');
   fs.writeFileSync(path.join(__dirname, 'rss.xml'), tplfunc('rss')({
@@ -140,6 +142,7 @@ server.use(function (req, res, next) {
     var list = match[1] == 'selected' ? entrySelected : entryList;
     res.end(tplfunc('list')({
       list: list,
+      title: match[1]=='selected'?'精选文章':'全部文章',
       type: match[1]
     }));
   } else if ((match = req.url.match(/\/(rss)(\.xml)?/i))) {
