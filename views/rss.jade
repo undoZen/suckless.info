@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+rss(version="2.0"): channel
+  title sucklessInfo
+  != '<link>http://suckless.info/</link>'
+  description @undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。
+  language zh-CN
+  - var pubDate = function (datestr) { return (new Date(12 * 60 * 60 * 1000 + (new Date(datestr)).valueOf())).toGMTString(); }
+  pubDate= pubDate(items[0].date)
+  - var lastBuildDate = (new Date).toGMTString()
+  lastBuildDate= lastBuildDate
+  copyright http://creativecommons.org/licenses/by-nc-nd/3.0/cn/
+  webMaster @undoZen (undozen@gmail.com)
+  - each item in items
+    item
+      title= item.title
+      != '<link>http://suckless.info/blog/' + item.index + '</link>'
+      description!= '<![CDATA[ <p style="background-color: #ddd; font-size: small;">' + item.description + '</p>' + item.document.replace(/<!--.*?-->/g, '') + ']]>'
+      author @undoZen (undozen@gmail.com)
+      pubDate= pubDate(item.date)

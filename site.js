@@ -113,6 +113,10 @@ if (~process.argv.indexOf('gen') || ~process.argv.indexOf('generate')) {
     list: entryList,
     type: 'all'
   }), 'utf8');
+  fs.writeFileSync(path.join(__dirname, 'rss.xml'), tplfunc('rss')({
+    items: entryObj,
+    type: 'rss'
+  }), 'utf8');
   process.exit(0);
 }
 
@@ -138,6 +142,12 @@ server.use(function (req, res, next) {
       list: list,
       type: match[1]
     }));
+  } else if ((match = req.url.match(/\/(rss)(\.xml)?/i))) {
+    res.setHeader('Content-Type', 'text/xml; charset=utf-8');
+    res.end(tplfunc('rss')(extend({}, {
+      items: entryObj.slice(0, 10),
+      type: 'rss'
+    })));
   } else if (req.url == '/') {
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(tplfunc('document')(extend(entryObj[0], {
