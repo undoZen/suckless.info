@@ -1,9 +1,9 @@
-<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Sun, 21 Apr 2013 12:00:00 GMT</pubDate><lastBuildDate>Sun, 21 Apr 2013 14:37:20 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>新闻无关紧要</title><link>http://suckless.info/blog/20</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/20/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">对个人来说，新闻为什么无关紧要？</p><br>
+<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Sun, 21 Apr 2013 12:00:00 GMT</pubDate><lastBuildDate>Sun, 21 Apr 2013 15:17:36 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>新闻无关紧要</title><link>http://suckless.info/blog/20</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/20/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">对个人来说，新闻为什么无关紧要？</p><br>
 
 <p>本文内容未经深入思考，接受相关领域专业人士的 challenge——据我所知，我的读者中至少有两个是新闻学毕业的。</p>
 <p>我是反新闻的，虽然可能表达不清为什么，不过是一直觉得新闻对自己的身心健康有害，而带给我的益处似乎没想象中那么大。在这个时代，我们或许都患有信息成瘾症、或者是一种叫做 FOMO —— Fear Of Missing Out —— 的病。既然我的网站域名是 suckless.info，这应该是这里关注的一个主要问题。这是我第一次尝试讨论这个话题，但不会是最后一次。</p>
 <p>在即将过去的这周，发生了两个重要事件：一个是周一的波士顿马拉松爆炸案，另一个是周六的四川雅安 7.0 级地震。在此之前，我正好读到一篇名为《新闻有毒》的文章，来自爱范儿，是总结了另一篇英文文章的观点。本文最后的“阅读原文”链接就给出了爱范儿的《新闻有毒》这篇文章，这网页里给出了英文原文的链接地址。</p>
-<p>而在今天，我又读到了 Slate 上面的一篇名为《Breaking News Is Broken》的文章，作者身在美国，从事新闻业，自然是从波士顿爆炸案来反思 breaking news 的局限。得出的结论是我们现在的信息传播速度过快，传播时都来不及过脑子。传统媒体也害怕跟不上时代而转发未经确认的消息，而新媒体？任何一个普通人手机上的摄像头拍摄到的画面发布到网上后都充满了误导性，因为你看到的只是传播到你眼前的，而你并不知道你看到的画面在整个 big picture 里面的位置。这篇仅摘录其中最有意思的一段得了：</p>
+<p>而在今天，我又读到了 Slate 上面的一篇名为《Breaking News Is Broken》的文章，作者身在美国，从事新闻业，自然是从波士顿爆炸案来反思 breaking news 的局限。得出的结论是我们现在的信息传播速度过快，传播时都来不及过脑子。传统媒体也害怕跟不上时代而转发未经确认的消息，而新媒体？任何一个普通人手机上的摄像头拍摄到的画面发布到网上后都充满了误导性，因为你看到的只是传播到你眼前的，而你并不知道你看到的画面在整个 big picture 里面的位置。这里就仅摘录其中最有意思的一段吧：</p>
 <blockquote>
 <p>We get stories much faster than we can make sense of them, informed by cellphone pictures and eyewitnesses found on social networks and dubious official sources like police scanner streams. Real life moves much slower than these technologies. There’s a gap between facts and comprehension, between finding some pictures online and making sense of how they fit into a story. What ends up filling that gap is speculation. On both Twitter and cable, people are mostly just collecting little factoids and thinking aloud about various possibilities. They’re just shooting the shit, and the excrement ends up flying everywhere and hitting innocent targets.</p>
 </blockquote>
@@ -13,10 +13,10 @@
 <p>值得知道的：</p>
 <ol>
 <li>反思一下生命无常，认真学习地震灾害自救互救方法；</li>
-<li>韩寒、左志坚亲历的地震救灾后的反思；</li>
+<li>韩寒、左志坚亲历地震救灾后的反思；</li>
 <li>壹基金是大家信任的公益组织，截止至昨晚某个时刻，壹基金收到 2000 多万捐款，相比政府背景的红十字会仅收到 16 万——从纽约时报中文网看到的。</li>
 </ol>
-<p>对你来说没什么意义的信息：</p>
+<p>没什么意义的信息：</p>
 <ol>
 <li>小伙抱着父亲站几小时——确实挺感人，但与我无关；</li>
 <li>某部队军车出师未捷身先死，救灾图中翻车，战士死掉好多——确实很可惜，但与我无关；</li>
