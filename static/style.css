@@ -201,3 +201,8 @@ p {
 .article-list {
     padding-bottom: 30px;
 }
+
+blockquote {
+    border-left: 0.3em solid #eee;
+    padding-left: 0.7em;
+}
