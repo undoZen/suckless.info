@@ -12,7 +12,7 @@ var entriesPath;
 var marked = require('marked');
 marked.setOptions({ gfm: true, breaks: true });
 var entryObj, entryList, entrySelected;
-var selectedIndex = [1, 3];
+var selectedIndex = [1, 3, 7, 8, 12, 18, 19, 21, 24];
 function updateEntryList() {
 entriesPath = fs.readdirSync(sourceBlogPath)
   .filter(function (filename) { return filename.match(/\d+\.md$/i); })
