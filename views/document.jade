@@ -24,9 +24,10 @@ include head
   section#main
     .meta
       h1.title= title
-      datetime= date
+      datetime= ('undefined' != typeof date ? date : '')
       img(alt='cover', src= 'http://sucklessinfo.b0.upaiyun.com/'+index+'/0-c.jpg')
-      .description= description
+      .description= ('undefined' != typeof description ? description : '')
+    - document = 'undefined' == typeof wx ? document : document.replace(/<\/?p>/gi, '<br>')
     article!= document
     .the-end - The End -
   include about

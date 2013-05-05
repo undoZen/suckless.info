@@ -133,6 +133,7 @@ server.use(function (req, res, next) {
     if (k == -1) return next();
     var locals = entryObj[k];
     res.end(tplfunc('document')(extend(locals, {
+      wx: 'wx' in req.query ? true : undefined,
       prev: entryObj[k+1],
       next: entryObj[k-1],
       type: k == 0 ? 'latest' : 'normal'
@@ -151,9 +152,10 @@ server.use(function (req, res, next) {
       items: entryObj.slice(0, 10),
       type: 'rss'
     })));
-  } else if (req.url == '/') {
+  } else if (req.url.replace(/\?.*$/, '') == '/') {
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(tplfunc('document')(extend(entryObj[0], {
+      wx: 'wx' in req.query ? true : undefined,
       prev: entryObj[1],
       type: 'latest'
     })));
