@@ -1,4 +1,4 @@
-<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Thu, 09 May 2013 12:00:00 GMT</pubDate><lastBuildDate>Thu, 09 May 2013 03:08:57 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>推荐抓取网页发送邮件的神奇服务 toread.cc</title><link>http://suckless.info/blog/35</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/35/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">解决移动设备浏览网页保存 Evernote 的问题</p><br>
+<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Thu, 09 May 2013 12:00:00 GMT</pubDate><lastBuildDate>Thu, 09 May 2013 03:10:54 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>推荐抓取网页发送邮件的神奇服务 toread.cc</title><link>http://suckless.info/blog/35</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/35/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">解决移动设备浏览网页保存 Evernote 的问题</p><br>
 
 <p>一般来说想用某个在线服务，通常都会找到一大堆，一个个试用下来，没有一个完美的，只能折中选一个 less suck 的方案。</p>
 <p>不过今天遇到 toread.cc 这个服务，几乎完美了，已经足够解决我的问题，所以推荐一下。</p>
@@ -12,7 +12,8 @@
 <p><img src="http://sucklessinfo.b0.upaiyun.com/35/3-w.jpg" alt=""> <br></p>
 <p>实际上已经合并到下面的候选列表了，如果你输入的是一个网址，点击候选列表的第一个结果就相当于“Go to”按钮的作用。仔细一想其实这样的设计是很合理的，因为 Chrome 是合并了搜索框和地址栏，这样设计的好处在于你要打开的是搜索结果页还是直接访问页面，可以通过左边的 icon 一目了然地看出来：</p>
 <p><img src="http://sucklessinfo.b0.upaiyun.com/35/4-w.jpg" alt=""> <br></p>
-<p>海豚浏览器抄 Chrome 没抄到位，就在于这些细节上，学 Chrome 不给“Go to”按钮，却也没有在候选列表里面给出直接 go to 的选项，一定要按虚拟键盘的回车才行。再加上国际版仅支持 Evernote 不支持印象笔记，国内版就干脆没有这些分享功能，所以我没用几分钟就删掉了。目前我在移动设备上的浏览器首选还是 Chrome（桌面是 Firefox）。</p>]]></description><author>@undoZen (undozen@gmail.com)</author><pubDate>Thu, 09 May 2013 12:00:00 GMT</pubDate></item><item><title>推荐个人博客 pepsin.me</title><link>http://suckless.info/blog/34</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/34/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">再次厚颜无耻地动用剪刀手大招……</p><br>
+<p>海豚浏览器抄 Chrome 没抄到位，就在于这些细节上，学 Chrome 不给“Go to”按钮，却也没有在候选列表里面给出直接 go to 的选项，一定要按虚拟键盘的回车才行。再加上国际版仅支持 Evernote 不支持印象笔记，国内版就干脆没有这些分享功能，所以我没用几分钟就删掉了。目前我在移动设备上的浏览器首选还是 Chrome（桌面是 Firefox）。</p>
+<p>传送门：<a href="http://toread.cc/">toread.cc 自己体验吧​</a></p>]]></description><author>@undoZen (undozen@gmail.com)</author><pubDate>Thu, 09 May 2013 12:00:00 GMT</pubDate></item><item><title>推荐个人博客 pepsin.me</title><link>http://suckless.info/blog/34</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/34/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">再次厚颜无耻地动用剪刀手大招……</p><br>
 
 <p>不好意思，今天上午耽误了没能在上午写好发出。又不想拖到晚上耽误晚上的事情，只好趁午休时间简单写两句了。</p>
 <p>今天推荐一个我个人比较喜欢的，关注了有一阵子的个人博客 pepsin.me 看来作者也和我一样，关注者不多。但是他博客推荐的内容往往能令我耳目一新。</p>
