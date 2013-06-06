@@ -1,4 +1,14 @@
-<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Wed, 05 Jun 2013 12:00:00 GMT</pubDate><lastBuildDate>Wed, 05 Jun 2013 09:48:07 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>节俭的态度</title><link>http://suckless.info/blog/47</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/47/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">勤俭节约是美德</p><br>
+<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Thu, 06 Jun 2013 12:00:00 GMT</pubDate><lastBuildDate>Thu, 06 Jun 2013 06:51:31 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>那些雪球教我的事-公司的意义</title><link>http://suckless.info/blog/48</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/48/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">从对老方的敬佩说起</p><br>
+
+<p>昨天貌似不小心黑了雪球一把，女友说文章最后一段好像在说雪球里都是老头子 + 雪球没技术似的。哈哈，我可没这个意思啊。实际上，雪球是就我所知比较有硅谷范儿的一家公司，对技术产品的员工很是重视，老方和技术产品部门是坐在一个屋里。对工程师的管理相对宽松，特别是不会去强制什么代码格式或什么编辑器统一之类的。技术选型上也是你什么技术能用好能完成工作基本上都能让你选用，也是在这样的宽松环境下才能成为国内在 node.js 技术上率先吃螃蟹的公司。</p>
+<p>今天开始说说在雪球学到的一些东西，一点点慢慢写想到什么说什么吧。</p>
+<p>首先是公司存在的意义。我进公司之前要求见见老方和他聊聊，然后某个下午他就在雪球的会议室为我答疑解惑了。我现在只记得唯一一个也是我比较关心的问题是，“你既然不懂技术，为什么又能搞出这样一家在我看来技术靠谱的公司呢？”因为当时吸引我的还主要是雪球那 node.js 的生产环境，让我能够在工作中使用我喜欢的技术。</p>
+<p>老方当时指了指旁边坐着的前端负责人孟同学说，就是他们这帮人搞出来的嘛。然后给我简单讲了现代公司存在的意义中一个重要的方面。大意就是，公司能聚集起一群人来做成任何一个个体都无法完成的事情。</p>
+<p>当时快到年底了，在一个月后的年会中，方叔又再次表达了同样的观点：在座的我们简直是一群乌合之众，分析师自己很可能是在亏钱，做技术的同事好多都不懂投资，而我们能做成一些事情，只在于各自都有一点什么技能，拿出来一起合作去朝一个方向努力——已经一年多了，原话不记得，大意是这样子吧。</p>
+<p>这对当时的我来说还是挺有启发的，因为当时刚毕业不久，对到公司上班还是比较排斥的态度，对自由职业会有比较理想化的幻想，而老方说的这个，包括他的那个我在后文中推荐的优米网的访谈，刷新了我对到公司上班和做自由职业者的一些看法。</p>
+<p>后来我在 Hacker News 上看到过一篇文章，说把一个产品开发看做是一个多人合作的闯关游戏吧。在雪球，其实有点这样的意思。</p>
+<p>之后想到什么再慢慢写。加入雪球前也看过一个优米网对方叔的访谈，现在看也还是非常有价值（其实聊的都是一些没有什么时效性的东西，所以应该会一直有价值），在文末传送门推荐给大家。</p>
+<p>传送门：<a href="http://chuangye.umiwi.com/2011/1110/47766.shtml">优米网对方三文的访谈</a><br>题图是老方，我要提醒大家方叔在现实中是没有视频中那么丑的……你看这题图，还是很有黑老大气质的吧。</p>]]></description><author>@undoZen (undozen@gmail.com)</author><pubDate>Thu, 06 Jun 2013 12:00:00 GMT</pubDate></item><item><title>节俭的态度</title><link>http://suckless.info/blog/47</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/47/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">勤俭节约是美德</p><br>
 
 <p>最近比较拮据，因为执意拉长转换工作间的假期，损失不少机会成本（不上班就没收入啦），再加上出游又要花去比平实更多的钱，这才想到要开始节俭了。</p>
 <p>其实我是比较信奉所谓“不持有的生活”这样一种态度的。简单地说就是要买东西都买好的质量上乘的，哪怕贵一点。比如说买一双 RedWing 的皮靴，虽然说价格是一般皮鞋的三到五倍，但是有网友说保养好穿个十多年都不会坏。我计划穿五年以上，就会比每年到冬天都要去买一双皮靴要省了。</p>
