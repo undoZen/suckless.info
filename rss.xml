@@ -1,4 +1,10 @@
-<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Thu, 06 Jun 2013 12:00:00 GMT</pubDate><lastBuildDate>Thu, 06 Jun 2013 06:51:31 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>那些雪球教我的事-公司的意义</title><link>http://suckless.info/blog/48</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/48/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">从对老方的敬佩说起</p><br>
+<?xml version="1.0"?><rss version="2.0"><channel><title>sucklessInfo</title><link>http://suckless.info/</link><description>@undoZen 的非技术日志——尽量每日一篇。按个人喜好关注人文、科技、互联网、科幻等等。</description><language>zh-CN</language><pubDate>Fri, 07 Jun 2013 12:00:00 GMT</pubDate><lastBuildDate>Fri, 07 Jun 2013 01:18:21 GMT</lastBuildDate><copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/cn/</copyright><webMaster>@undoZen (undozen@gmail.com)</webMaster><item><title>高考是噩梦，别怕，因为马上就要醒了</title><link>http://suckless.info/blog/49</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/49/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">祝表妹今天明天考好</p><br>
+
+<p>据说很多人的噩梦会是考试写不出来，其实，之前学生时代的考试也经常就像是噩梦一样。</p>
+<p>特别是语文。中国的语文教育简直荒谬得可以，一个是揣摩出题人——而不是作者——的意图，另一个是要憋出迎合评分人价值观的文章。</p>
+<p>具体就不说了，在国内读过中学的人应该都知道，就不传播负面能量了。</p>
+<p>还是之前那个说法，在内地读过学生时代虽然有点痛苦，但总会过去。不要觉得老师都没法交给你什么有用的东西，或许那也是一件好事——能锻炼你的自学能力——不过前提是你真的是一名追求知识追求智慧追求真理的好孩子。</p>
+<p>关于大学的话题，有大学生读者会感兴趣吗？想交流什么问题？欢迎回复。</p>]]></description><author>@undoZen (undozen@gmail.com)</author><pubDate>Fri, 07 Jun 2013 12:00:00 GMT</pubDate></item><item><title>那些雪球教我的事-公司的意义</title><link>http://suckless.info/blog/48</link><description><![CDATA[ <img src="http://sucklessinfo.b0.upaiyun.com/48/0-c.jpg" /><p style="background-color: #ddd; font-size: small;">从对老方的敬佩说起</p><br>
 
 <p>昨天貌似不小心黑了雪球一把，女友说文章最后一段好像在说雪球里都是老头子 + 雪球没技术似的。哈哈，我可没这个意思啊。实际上，雪球是就我所知比较有硅谷范儿的一家公司，对技术产品的员工很是重视，老方和技术产品部门是坐在一个屋里。对工程师的管理相对宽松，特别是不会去强制什么代码格式或什么编辑器统一之类的。技术选型上也是你什么技术能用好能完成工作基本上都能让你选用，也是在这样的宽松环境下才能成为国内在 node.js 技术上率先吃螃蟹的公司。</p>
 <p>今天开始说说在雪球学到的一些东西，一点点慢慢写想到什么说什么吧。</p>
