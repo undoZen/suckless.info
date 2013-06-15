@@ -25,7 +25,8 @@ include head
     .meta
       h1.title= title
       datetime= ('undefined' != typeof date ? date : '')
-      img(alt='cover', src= 'http://sucklessinfo.b0.upaiyun.com/'+index+'/0-c.jpg')
+      - if (index <= 50 || 'undefined' != typeof cover && cover)
+        img(alt='cover', src= 'http://sucklessinfo.b0.upaiyun.com/'+index+'/0-c.jpg')
       .description= ('undefined' != typeof description ? description : '')
     - document = 'undefined' == typeof wx ? document : document.replace(/<\/?p>/gi, '<br>')
     article!= document

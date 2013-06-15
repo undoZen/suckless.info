@@ -160,7 +160,10 @@ img {
     max-width: 100%;
 }
 .meta img {
-    margin: 20px auto 30px;
+    margin: 0px auto 30px;
+}
+.meta datetime {
+    margin-bottom: 20px;
 }
 p {
     margin: 1em 0;
