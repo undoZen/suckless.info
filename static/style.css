@@ -187,7 +187,6 @@ p {
 }
 .qrcode {
     float: left;
-    padding-bottom: 40px;
 }
 .qrcode img {
     margin: 0;
@@ -199,6 +198,11 @@ p {
 }
 .about-text p {
     margin: 10px 0;
+}
+@media only screen and (max-width: 480px) {
+    .qrcode {
+        float: none;
+    }
 }
 .article-list {
     padding-bottom: 30px;
